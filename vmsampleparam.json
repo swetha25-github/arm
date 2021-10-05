@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pipprefix": {
+            "value": "pip"
+        },
+        "nsgprefix": {
+            "value": "nsg"
+        },
+        "vnetprefix": {
+            "value": "vnet"
+        },
+        "subnetname": {
+            "value": "subnet"
+        },
+        "nicprefix": {
+            "value": "nic"
+        },
+        "vmprefix": {
+            "value": "vm"
+        },
+        "dnsname": {
+            "value": "landssol"
+        },
+        "diskprefix": {
+            "value": "myosdisk"
+        },
+        "ipconfig": {
+            "value": "myvmipconfig"
+        },
+        "rulename": {
+            "value": "value"
+        }
+    }
+}
